@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #444;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff50;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+button, select {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3300ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: left;
+}
